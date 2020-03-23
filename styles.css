@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-family: "Roboto";
+}
+h4 {
+  color: white;
+  font-family: "Lato";
+}
+#calcDisplay {
+  height: 75px;
+  width: 250px;
+  background-color: grey;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  margin-top: 100px;
+  padding-top: 15px; /*this is to bring the 0 down a bit to not be truncated by the chosen curved edge*/
+  margin-right: auto;
+  margin-left: auto;
+  /*padding-left: 150px;*/ /* moves the 0 to the right but with long results this get complicated */
+}
+#calculator {
+  background-color: grey;
+  width: 250px;
+  /*padding-top: 20px; */
+  /*padding-bottom: 30px; */
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#steps {
+  padding-left: 50px;
+  font-size: 2em;
+}
+
+a {
+  /*this is for the buttons*/
+  /*margin: 5px;*/ /*space between the buttons*/
+  width: 63px;
+  /*width: 2.6vw;  means 2.6 of the view window, this makes everything look similar, see more at W3 schools*/
+  height: 40px;
+  background-color: orange;
+}
+.btn {
+  border-radius: 0; /*this makes the buttons square shaped*/
+  border-thickness: 2px;
+  border-color: grey;
+}
+.bigButton0 {
+  /*use  . because it is a class*/
+  width: 125px;
+  border-bottom-left-radius: 1em;
+}
+.bigButtonT {
+  /*use  . because it is a class*/
+  width: 125px;
+  border-bottom-right-radius: 1em;
+}
